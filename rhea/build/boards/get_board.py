@@ -7,7 +7,7 @@ from __future__ import print_function
 
 # import all the board definitions
 from .xilinx import (Xula, Xula2, Pone, Anvyl, Mojo, Nexys, Atlys,
-                     Zybo, Parallella, SX1, UFO400, XUPV2P)
+                     Zybo, Parallella, SX1, UFO400, XUPV2P, ML507)
 from .altera import (DE0Nano, DE0NanoSOC, DE0CV)
 from .lattice import (Icestick, CATBoard)
 
@@ -15,7 +15,7 @@ from .lattice import (Icestick, CATBoard)
 xbrd = {'xula': Xula, 'xula2': Xula2, 'pone': Pone, 'anvyl': Anvyl,
         'mojo': Mojo, 'atlys': Atlys, 'nexys': Nexys, 'zybo': Zybo,
         'parallella': Parallella, 'sx1': SX1, 'ufo400': UFO400,
-        'xupv2p': XUPV2P,}
+        'xupv2p': XUPV2P, 'ml507': ML507 }
 
 abrd = {'de0nano': DE0Nano, 'de0nano_soc': DE0NanoSOC, 'de0cv': DE0CV,}
 
